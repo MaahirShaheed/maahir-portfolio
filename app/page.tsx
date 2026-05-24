@@ -59,15 +59,15 @@ export default function Home() {
 
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           <a
-            href="https://github.com/MaahirShaheed?tab=repositories"
+            href="https://github.com/MaahirShaheed/Bayesian-hidden-market-data-pipeline"
             target="_blank"
             className="rounded-3xl border border-slate-800 bg-slate-900 p-6 transition hover:-translate-y-1 hover:bg-slate-800"
           >
             <p className="mb-3 text-sm font-semibold text-blue-400">Research Project</p>
             <h3 className="text-xl font-bold">Bayesian Hidden Market Data Pipeline</h3>
             <p className="mt-4 text-slate-300">
-              Research project using Bayesian thinking to understand hidden market regimes,
-              missing information, and uncertainty in financial data.
+              Independent research project using Bayesian thinking to understand hidden
+              market regimes, missing information, and uncertainty in financial data.
             </p>
             <p className="mt-5 text-sm font-semibold text-blue-400">
               View GitHub →
@@ -211,6 +211,23 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Certifications Section */}
+      <section id="certifications" className="mx-auto max-w-6xl px-6 py-20">
+        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">
+          Certification
+        </p>
+
+        <h2 className="text-4xl font-bold">AWS Certified Cloud Practitioner</h2>
+
+        <div className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-8">
+          <p className="max-w-3xl text-lg leading-8 text-slate-300">
+            Earned the AWS Certified Cloud Practitioner certification, demonstrating
+            foundational knowledge of cloud concepts, AWS core services, security,
+            architecture, pricing, and cloud value.
+          </p>
+        </div>
+      </section>
+
       {/* Skills Section */}
       <section id="skills" className="mx-auto max-w-6xl px-6 py-20">
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">
@@ -228,7 +245,9 @@ export default function Home() {
             "Machine Learning",
             "Bayesian Networks",
             "Financial Mathematics",
-            "AWS",
+            "AWS Certified Cloud Practitioner",
+            "Next.js",
+            "Vercel",
             "Streamlit",
             "GitHub",
             "Data Visualization",
