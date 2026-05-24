@@ -234,7 +234,7 @@ export default function Home() {
           Skills
         </p>
 
-        <h2 className="text-4xl font-bold">Technical Stack</h2>
+        <h2 className="text-4xl font-bold">Technical Skills</h2>
 
         <div className="mt-8 flex flex-wrap gap-3">
           {[
